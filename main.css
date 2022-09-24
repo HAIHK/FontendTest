@@ -1,56 +1,69 @@
 html{
     width: 100%;
-    font-family: Roboto;
 }
 .Header{
     display: flex;
-    justify-content:space-between;
 }
 .Header_left{
-    width: 10%;
-    border: 2px solid;
-    padding-left: 0%;
-    background-color: #191718;
+    width: 150px;
+    background-color: #191718;    
 }
-.item_hd{
-    padding: 0%;
-
+.Header_item{
+    padding: 0;
+    margin: 0;
 }
-.img{
-    width: 300px;
-    padding: 20px;
+.logo{
+    height: 122px;
+    width: 310px;
 }
 .item_link{
     text-decoration: none;
     color: #AAAAAA;
 }
-.item{
-    color: white;
-    list-style: none;
-    padding-left: 20px;
-    text-decoration: none;
 
+.ul , .item{
+    height: 44px;
+    color: #ffffff;
+    list-style: none;
+    padding-left: 16px;
+    padding-top: 14px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+}
+.item:hover{
+    background-color: #5C5C5C;
+}
+.item_link:hover{
+    color: #ffffff;
 }
 .Header_right{
-    width: 90%;
+    width: 1179px;
     text-align: center;
-}
-.hd_right{
-    padding-left: 70px;
-    padding-right: 70px;
 
 }
-.the_middle{
+.Header_content{
+    padding: 0 50px 200px;
+
+}
+.container{
     padding-top: 10px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 110px;
+    padding-right: 110px;
     padding-bottom: 40px;
     background-color: #EFEFEF;
-    font-size: 0.9rem;
+    font-size: 16px;
+}
+.content{
+    height: 95px;
+    width: 872px;
+    text-align: justify;
+
+
 }
 .icon{
-    width: 100px;
-    padding-right: 20px;
+    height: 128px;
+    width: 128px;
+
 }
 .icon_text{
     list-style: none;
@@ -72,18 +85,23 @@ html{
 .text_lr{
     margin: 0px;
 }
-.lricon{
+.content_list{
     width: 500px;
     padding: 0;
 }
-.lorem{
+.container_content{
     display: flex;
 }
-.title_lr{
+.title_content{
     text-align: left;
 }
-.copy{
+.footer{
+    width: 1179px;
+    height: 79px;
+    border-top:  1px solid #DEDEDE;
+}
+.footer_content{
     text-align: left;
-    padding-left: 70px;
+    padding: 30px 50px;
     color: #3E3E3E;
 }
