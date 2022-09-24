@@ -21,7 +21,7 @@ html{
     color: #AAAAAA;
 }
 
-.ul , .item{
+.item{
     height: 44px;
     color: #ffffff;
     list-style: none;
@@ -56,7 +56,7 @@ html{
 .content{
     height: 95px;
     width: 872px;
-    text-align: justify;
+    text-align: center;
 
 
 }
