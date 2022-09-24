@@ -1,0 +1,89 @@
+html{
+    width: 100%;
+    font-family: Roboto;
+}
+.Header{
+    display: flex;
+    justify-content:space-between;
+}
+.Header_left{
+    width: 10%;
+    border: 2px solid;
+    padding-left: 0%;
+    background-color: #191718;
+}
+.item_hd{
+    padding: 0%;
+
+}
+.img{
+    width: 300px;
+    padding: 20px;
+}
+.item_link{
+    text-decoration: none;
+    color: #AAAAAA;
+}
+.item{
+    color: white;
+    list-style: none;
+    padding-left: 20px;
+    text-decoration: none;
+
+}
+.Header_right{
+    width: 90%;
+    text-align: center;
+}
+.hd_right{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.the_middle{
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    background-color: #EFEFEF;
+    font-size: 0.9rem;
+}
+.icon{
+    width: 100px;
+    padding-right: 20px;
+}
+.icon_text{
+    list-style: none;
+}
+.icon_t{
+    text-align: left;
+    display: flex;
+}
+.text{
+    width: 70%;
+}
+.text_ic{
+    list-style: none;
+    flex: 1;
+    margin-top: 0px;
+    width: 350px;
+    text-align: left;
+}
+.text_lr{
+    margin: 0px;
+}
+.lricon{
+    width: 500px;
+    padding: 0;
+}
+.lorem{
+    display: flex;
+}
+.title_lr{
+    text-align: left;
+}
+.copy{
+    text-align: left;
+    padding-left: 70px;
+    color: #3E3E3E;
+}
